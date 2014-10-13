@@ -16,10 +16,14 @@ h1,h2,h3,h4,h5,h6,a,p,blockquote,span{font-family:Helvetica, Arial, sans-serif;m
 #wrap { border-top: 6px solid #265393; padding-top: 30px }
 
 /* ready class colors */
+body { background: #d4d4d4 }
+.col { background: #f4f4f4 }
+.row { background: #444; border-bottom: #fff }
+
 .dk-blue{ background:#265393 } .red{ background:#ee3c25 } .white{ background:#fff }
 h1.red, h2.red, h3.red, h4.red, h5.red, h6.red { color: #ee3c25; background: none }
 h1.blue, h2.blue, h3.blue, h4.blue, h5.blue, h6.blue { color: #265393; background: none }
-.row { background: #444; border-bottom: #fff }
+
 
 /* main rows */
 .row.header		{ }
@@ -85,6 +89,7 @@ h1.title { font-family: 'Gotham Light', Gotham, Helvetica, Arial, sans-serif; fo
 
 /*carousel and slider styles*/   
 .row.slider .col-1{padding:0}
+/* slider width */
 .slider-clip,.slides,.slide,.slide-image{width:1000px;height:334px;padding:0}
 .slider{position:relative}
 .slider-clip{float:left;overflow:hidden;padding:0}

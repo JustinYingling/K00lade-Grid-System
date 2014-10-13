@@ -34,16 +34,7 @@
         
  </div>
  <!-- ./slider-->
- 
-  <!-- seach bar -->
- <div class="row tagline">
-   
-  <div class="col-1">
-    <div class="col">Search Bar</div>
-  </div> 
-        
- </div>
- <!-- ./search bar-->
+  
  
  
  <!--page 75/25 -->
@@ -77,10 +68,10 @@
  
  
  <!-- tagline -->
- <div class="row tagline">
+ <div class="row headline">
    
   <div class="col-1">
-    <div class="col">Tagline</div>
+    <div class="col">Headline</div>
   </div> 
         
  </div>
@@ -105,8 +96,17 @@
  </div>
  <!-- ./page 3-col -->  
  
+ 
+ <!-- footer --> 
+ <div class="row footer"> 
+  <div class="col-1">
+   <div class="col"> FOOTER </div> 
+  </div>
+ </div>
+ <!-- ./footer -->
+ 
 
-<!-- footer -->
+
  <div id="scrollup"><i class="fa fa-angle-up fa-2x"></i></div>
 
 
