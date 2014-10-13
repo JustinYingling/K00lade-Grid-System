@@ -12,16 +12,19 @@ h1,h2,h3,h4,h5,h6,a,p,blockquote,span{font-family:Helvetica, Arial, sans-serif;m
 .hidden{display:none}ul,ol{margin-bottom:0;margin-top:0}.list-unstyled{list-style:none;padding-left:0}.video{padding:0;position:relative;width:100%}.video iframe,.video object,.video embed{height:100%;left:0;position:absolute;top:0;width:100%}fieldset{border:0;margin:0;padding:0}button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}.form{margin:0 0 15px}label{display:block;font-weight:bold;margin-bottom:5px}.input,.select{background-color:#fff;border:1px solid #ccc;color:#555;display:block;font-size:14px;height:38px;line-height:1.428571429;margin-bottom:10px;padding:8px 12px;vertical-align:middle;width:100%}.input::-moz-placeholder,.select::-moz-placeholder{color:#999;opacity:1}.input:focus,.select:focus{border-color:rgba(82,168,236,.8);outline:0}.input[disabled],.select[disabled],.input[readonly],.select[readonly],fieldset[disabled] .input,fieldset[disabled] .select{background-color:#eee;cursor:not-allowed}.button{background-color:black;border:0;color:white;display:inline-block;line-height:inherit;padding:12px}.form-label{cursor:pointer;display:inline-block;font-weight:normal;margin-bottom:0}.checkbox,.radio{display:block;margin-bottom:5px;padding-left:20px}.checkbox-input,.radio-input{float:left;line-height:normal;margin:1px}.radio-input{margin-top:3px}.clearfix:before,.clearfix:after,.embed:before,.embed:after,.checkbox:before,.radio:before,.checkbox:after,.radio:after{content:'';display:table}.clearfix:after,.embed:after,.checkbox:after,.radio:after{clear:both}div.content > p{line-height:20px;margin:10px 0;padding:8px}.input:-moz-placeholder,.select:-moz-placeholder,.input:-ms-input-placeholder,.select:-ms-input-placeholder,.input::-webkit-input-placeholder,.select::-webkit-input-placeholder{color:#999}textarea.input,textarea.select,.select[multiple]{height:auto}
 
 
-/* Main Wrap */
+/* main wrap */
 #wrap { border-top: 6px solid #265393; padding-top: 30px }
 
 /* ready class colors */
 .dk-blue{ background:#265393 } .red{ background:#ee3c25 } .white{ background:#fff }
+h1.red, h2.red, h3.red, h4.red, h5.red, h6.red { color: #ee3c25; background: none }
+h1.blue, h2.blue, h3.blue, h4.blue, h5.blue, h6.blue { color: #265393; background: none }
+.row { background: #444; border-bottom: #fff }
 
-/* Main rows */
+/* main rows */
 .row.header		{ }
 .row.navigation	{ }
-.row.container	{ }
+.row.container	{ width: 1002px; max-width: 100%; margin: 0 auto }
 .row.content	{ }
 .row.post		{ }
 .row.headline	{ }
@@ -57,8 +60,89 @@ span.mobile_hide {color:#fff;background:#265393}
 /* callout buttons in mobile nav */
 a.call-out-1{background:#e2875c}
 a.call-out-2{background:#e2875c}
-/* end navigation */
+/* end navigation */ 
 
 
 
+/* home */
 
+
+
+/* left sidebar */
+
+
+
+/* right sidebar */
+
+
+
+/* full width */
+
+ 
+/* titles */
+h1.title { font-family: 'Gotham Light', Gotham, Helvetica, Arial, sans-serif; font-size: 2.25em; color: #265393 }
+
+
+/*carousel and slider styles*/   
+.row.slider .col-1{padding:0}
+.slider-clip,.slides,.slide,.slide-image{width:1000px;height:334px;padding:0}
+.slider{position:relative}
+.slider-clip{float:left;overflow:hidden;padding:0}
+.slides{overflow:hidden;list-style:none outside none}
+.slide{position:relative;float:left}
+.slider-actions{position:absolute;top:152px;left:22px;overflow:hidden;width:1160px;max-width:100%}
+.slider-prev,.slider-next{display:block;overflow:hidden;width:32px;height:32px;cursor:pointer;white-space:nowrap;text-indent:100%;background:transparent url(images/sprite.png) no-repeat}
+.slider-prev{float:left;margin-left:23px;background-position:-22px 0}
+.slider-next{float:right;margin-right:23px;background-position:-50px 0}
+.slider-prev:hover{background:rgba(0,0,0,.1) url(images/sprite.png) no-repeat -22px 0}
+.slider-next:hover{background:rgba(0,0,0,.1) url(images/sprite.png) no-repeat -50px 0}
+.slider-paging{position:absolute;bottom:19px;left:0;width:100%;text-align:center}
+.slider-paging ul{overflow:hidden;list-style:none outside none;text-indent:100%}
+.slider-paging li{display:inline-block;overflow:hidden}
+.slider-paging li ~ li{margin-left:16px}
+.slider-paging a:hover,.slider-paging .selected a{background:#c30}
+/* slider title */
+.carousel-title{position:absolute;top:106px;right:0;bottom:0;left:94px;width:480px;max-width:90%;margin-top:0;padding-top:0;padding-left:0}
+.slider h1 span{font-family:'Open Sans',sans-serif;font-size:38px;font-weight:400;display:inline-block;margin-bottom:8px;padding:12px 20px;text-align:cleft;color:#ee3c25;background-color:#fff}
+/* slider read more link */
+a.read-more{font-size:18px;position:relative;top:10px;left:0;display:inline;margin-right:6px;padding:14px 24px;text-decoration:none;color:#fff;background:#ee3c25}
+ 
+ 
+/* buttons */
+#scrollup { position: fixed; bottom: 60px; left: 415px; height: 48px; margin-left: 50%; padding: 6px 14px 6px 14px; text-align: center; color: #fff; border-radius: 26px; background: rgba(0, 0, 0, .15) }
+
+/* breadcrumbs */
+ul.platform_breadcrumbs { margin: 0 0 30px 4px }
+.breadcrumbs li, .breadcrumbs li a { font-size: 14px; color: #222 }
+
+/* icons */
+a.social.icon { display: inline-block; width: 24px; height: 24px; margin-top: 10px; margin-right: 6px; text-align: center; border-radius: 40px }
+/* fa - fixes */
+a.social.icon i { padding-top: 5px }
+
+/* - circles - */
+.circle { font-size: 12px; position: relative; top: -4px; width: 8px; padding: 10px 10px; text-align: center; color: #fff; border: none; border-radius: 20px; background: #265393 }
+.circle:hover { background: #333 }
+
+/***** animate stuff *****/
+@keyframes fadein {
+from{opacity:0}
+to{opacity:1}
+}
+@-moz-keyframes fadein {
+from{opacity:0}
+to{opacity:1}
+}
+@-webkit-keyframes fadein {
+from{opacity:0}
+to{opacity:1}
+}
+@-ms-keyframes fadein {
+from{opacity:0}
+to{opacity:1}
+}
+@-o-keyframes fadein {
+from{opacity:0}
+to{opacity:1}
+}
+.fade-in { -webkit-animation: fadein 2s -moz-animation: fadein 2s; -ms-animation: fadein 2s; -o-animation: fadein 2s; animation: fadein 2s }
