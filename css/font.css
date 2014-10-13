@@ -1,0 +1,11 @@
+/*********************************
+K00lAde Fonts: fonts.css
+Author: Justin Yingling 10/01/2014
+*********************************/
+
+/* Gotham Light */
+@font-face{font-family:'Gotham Light';font-weight:normal;font-style:normal;src:url(fonts/340820313-gotham-light.eot);src:url(fonts/340820313-gotham-light.eot?#iefix) format(embedded-opentype), url('fonts/340820313-gotham-light.svg#Gotham Light') format(svg), url(fonts/340820313-gotham-light.woff) format(woff), url(fonts/340820313-gotham-light.ttf) format(truetype)}
+/* Gotham Book */
+@font-face{font-family:'Gotham Book';font-weight:normal;font-style:normal;src:url(fonts/166320801-ufonts.com_gotham-book.eot);src:url(fonts/166320801-ufonts.com_gotham-book.eot?#iefix) format(embedded-opentype), url('fonts/166320801-ufonts.com_gotham-book.svg#Gotham Book') format(svg), url(fonts/166320801-ufonts.com_gotham-book.woff) format(woff), url(fonts/166320801-ufonts.com_gotham-book.ttf) format(truetype)}
+/* Gotham Medium */
+@font-face{font-family:'Gotham Medium';font-weight:normal;font-style:normal;src:url(fonts/Gotham-Medium.eot);src:url(fonts/Gotham-Medium.eot?#iefix) format(embedded-opentype), url('fonts/Gotham-Medium.svg#Gotham Light') format(svg), url(fonts/Gotham-Medium.woff) format(woff), url(fonts/Gotham-Medium.ttf) format(truetype)}

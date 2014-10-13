@@ -1,0 +1,135 @@
+/*********************************
+K00lAde Grid: k00lade-grid.css
+Author: Justin Yingling 10/01/2014
+*********************************/
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.row {
+  margin: 0 auto;
+  overflow: hidden
+}
+/* clearfix */
+.row:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+/* Attribute Selector */
+[class*='col-'] {
+  float: left;
+  padding: 0.3em;
+}
+/* Float last ".col-" right */
+[class*='col-']:last-of-type {
+  float: right;
+}
+/* Column Widths */
+.col	{ font:15px;padding:15px 0 }
+.col-1  { width: 100%; }
+.col-2  { width: 50%; }
+.col-3  { width: 33.33%; }
+.col-4  { width: 25%; }
+.col-5  { width: 20%; }
+.col-6  { width: 16.6666666667%; }
+.col-7  { width: 14.2857142857%; }
+.col-8  { width: 12.5%; }
+.col-9  { width: 11.1111111111%; }
+.col-10 { width: 10%; }
+.col-11 { width: 9.09090909091%; }
+.col-12 { width: 8.33%; }
+
+/* Additional Columns */
+.col-10	{ width: 10% }
+.col-20	{ width: 20% }
+.col-25	{ width: 25% }
+.col-30	{ width: 30% }
+.col-35	{ width: 35% }
+.col-40	{ width: 40% } 
+.col-45	{ width: 45% }
+.col-50	{ width: 50% }
+.col-55	{ width: 55% }
+.col-60	{ width: 60% }
+.col-65	{ width: 65% }
+.col-70	{ width: 70% }
+.col-75	{ width: 75% }
+.col-80	{ width: 80% }
+/* end Additional Columns */
+
+/* Responsive Styles */
+@media (max-width: 580px ) { 
+	
+	.col-20, .col-25, .col-30, .col-35, .col-40, .col-45, .col-50, .col-55, .col-60, .col-65, .col-70, .col-75, .col-80 { float: none; width: 100%!important }
+	.mobile-hide { display: none }
+ 	.row.header { height: auto }
+	.row.header .col-60 { margin-left: 0!important }
+	.headline h2 { font-size: 1.25em }  
+} 
+
+/* Landscape Mobile & Down */
+@media (max-width: 30em) {
+  
+  .col-1,
+  .col-2,
+  .col-3,
+  .col-4,
+  .col-5,
+  .col-6,
+  .col-7,
+  .col-8,
+  .col-9,
+  .col-10,
+  .col-11,
+  .col-12 
+  {
+    width: 100%;
+  }
+}
+
+/* Portrait Tablet to Landscape */
+@media (min-width: 30em) and (max-width: 50em) {
+  
+  .col-4,
+  .col-6,
+  .col-8,
+  .col-10,
+  .col-12 {
+    width: 50%;
+  }
+   
+  .col-1,
+  .col-2, 
+  .col-3,
+  .col-5,
+  .col-7,
+  .col-9,
+  .col-11 {
+    width: 100%;
+  }
+ .mobile-hide { display: none }
+
+}
+
+/* Landscape to Small Desktop */
+@media (min-width: 50em) and (max-width: 68.750em) { 
+
+  .col-7 {
+    width: 100%;
+  }
+  .col-4,
+  .col-8,
+  .col-10,
+  .col-12 {
+    width: 50%;
+  }
+  .col-40,.col-50 { 
+  width: 50% 
+  }
+  .mobile-hide { display: none!important } 
+}
