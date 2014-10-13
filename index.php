@@ -1,5 +1,29 @@
-<?php include ('inc/_header.html'); ?>
+<!DOCTYPE HTML>
+<html lang="en-US"> 
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width">
+    <title>K00lade Grid System</title> 
+    <!-- styles -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="css/k00lade-grid.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"> 
+    <!-- scripts -->
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+	<script src="js/jquery.carouFredSel-6.2.1-packed.js"></script>
+	<script src="js/jquery.fullscreener.min.js"></script>
+ </head>
 <!-- head -->
+
+
+<body class="page">
+
+<!-- main wrap-->
+<div id="wrap">
+
+
+<!-- main container -->
+<div class="row container">
 
  <!-- slider -->
  <div class="row slider">
@@ -81,5 +105,16 @@
  </div>
  <!-- ./page 3-col -->  
  
+
 <!-- footer -->
-<?php include('inc/_footer.html'); ?>
+ <div id="scrollup"><i class="fa fa-angle-up fa-2x"></i></div>
+
+
+
+
+ </div><!-- ./container--> 
+</div><!-- ./wrap--> 
+
+  <script src="../js/function.js"></script>
+ </body> 
+</html>
