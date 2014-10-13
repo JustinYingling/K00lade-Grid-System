@@ -31,7 +31,7 @@ Author: Justin Yingling 10/01/2014
   float: right;
 }
 /* Column Widths */
-.col	{ padding:15px 0 }
+.col	{ padding:15px 4px }
 .col-1  { width: 100%; }
 .col-2  { width: 50%; }
 .col-3  { width: 33.33%; }
